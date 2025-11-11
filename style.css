@@ -1,0 +1,26 @@
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+        "Daniel Clifford Daniel Clifford Daniel Clifford Daniel Clifford Daniel Clifford"
+        "Jonathan Walters Jonathan Walters Jonathan Walters Jonathan Walters Jonathan Walters"
+        "Kira Whittle Kira Whittle Kira Whittle "
+        "article article article aside aside Jeanette Harmon Jeanette Harmon"
+        "Patrick Abrams Patrick Abrams Patrick Abrams Harmon Jeanette Harmon Jeanette";
+    width: 80%;
+    height: 80dvh;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    gap: 10px;
+    padding: 10px;
+    margin: 10px;
+}
