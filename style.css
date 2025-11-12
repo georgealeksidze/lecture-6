@@ -11,17 +11,63 @@ body {
     height: 100vh;
 }
 .container {
-    background-color: white;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(5, 1fr);
     width: 80%;
-    height: 80dvh;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    border-image: initial;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+        "violet violet gray white"
+        "whitesmall black black white";
     gap: 10px;
-    padding: 10px;
-    margin: 10px;
+
 }
+.violet {
+    background-color: #733FC8;
+    grid-area: violet;
+    border-radius: 8px;
+    display: grid; 
+    justify-content: center;   
+    align-items: center;
+    
+}
+.gray {
+    background-color: #48556A;
+    grid-area: gray;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+}
+.whitesmall {
+    background-color: white;
+    border: 1px black;
+    grid-area: whitesmall;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.black {
+    background-color: black;
+    grid-area: black;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+.white {
+    background-color: white;
+    border: 1px black;
+    grid-area: white;
+    border-radius: 8px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
