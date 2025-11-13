@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(199, 197, 197);
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,8 @@ body {
     border-radius: 8px;
     display: grid;
     padding: 20px;
-    gap: 10px;     
+    gap: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);     
 }
         .heeder {
             font-weight: 600;
@@ -54,14 +55,21 @@ body {
             font-size: 11px;
             color: rgba(255, 255, 255, 0.555);
         }
+        .pic {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;            
+        }
+       
 .gray {
-    display: flex;
     background-color: #48556A;
     grid-area: gray;
     border-radius: 8px;
     display: grid;
-    justify-content: center;
-    align-items: center;   
+    padding: 20px;
+    gap: 10px; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);   
 }
         .namej {
             width: 90;
@@ -83,15 +91,21 @@ body {
             font-size: 20px;
             color: white;
         }  
+        .pic1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center; 
+            gap: 12px;           
+        }
 .whitesmall {
-    display: flex;
     background-color: white;
     border: 1px black;
     grid-area: whitesmall;
     border-radius: 8px;
     display: grid;
-    justify-content: center;
-    align-items: center;    
+    padding: 20px;
+    gap: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
         .heeder2 {
             font-weight: 600;
@@ -117,14 +131,20 @@ body {
             font-size: 11px;
             color:rgba(0, 0, 0, 0.452);
         }
-.black {
-    display: flex;
+        .pic2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;            
+        }
+.black {    
     background-color: black;
     grid-area: black;
     border-radius: 8px;
     display: grid;
-    justify-content: center;
-    align-items: center;    
+    padding: 20px;
+    gap: 10px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);   
 }
         .namep {
             width: 90;
@@ -147,15 +167,21 @@ body {
             font-size: 20px;
             color: white;
         }
+         .pic3 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;            
+        }
 .white {
-    display: flex;
     background-color: white;
     border: 1px black;
     grid-area: white;
     border-radius: 8px;
     display: grid;
-    justify-content: center;
-    align-items: center;   
+    padding: 20px;
+    gap: 10px; 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
 }
         .heeder4 {
             font-weight: 600;
@@ -180,6 +206,12 @@ body {
             font-weight: 500;
             font-size: 11px;
             color:rgba(0, 0, 0, 0.452);
+        }
+        .pic4 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 12px;            
         }
  
 
