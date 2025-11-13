@@ -26,7 +26,9 @@ body {
     background-color: #733FC8;
     grid-area: violet;
     border-radius: 8px;
-    display: grid;     
+    display: grid;
+    padding: 20px;
+    gap: 10px;     
 }
         .heeder {
             font-weight: 600;
